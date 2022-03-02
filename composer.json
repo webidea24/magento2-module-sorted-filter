@@ -1,0 +1,20 @@
+{
+    "name": "webidea24/magento2-module-sorted-filter",
+    "version": "1.0.0",
+    "description": "This module will sort all filter items in frontend",
+    "type": "magento2-module",
+    "require": {
+        "magento/framework": "*"
+    },
+    "license": [
+        "Proprietary"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Webidea24\\SortedFilter\\": ""
+        }
+    }
+}
