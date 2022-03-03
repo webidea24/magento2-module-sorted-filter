@@ -16,7 +16,7 @@ class SortFilter
         $return = [];
 
         foreach ($result as $filterItem) {
-            $return[$filterItem->getLabel()] = $filterItem;
+            $return[(string)$filterItem->getLabel()] = $filterItem;
         }
 
         ksort($return);
